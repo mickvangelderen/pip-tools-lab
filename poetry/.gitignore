@@ -1,0 +1,4 @@
+/.poetry/
+/.venv/
+/poetry
+/requirements.*.txt

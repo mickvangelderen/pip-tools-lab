@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pip-tools-lab"
+version = "0.1.0"
+description = ""
+authors = ["Mick van Gelderen <mickvangelderen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+
+[tool.poetry.group.l0.dependencies]
+torch = "~2.3.1"
+
+[tool.poetry.group.l1.dependencies]
+loguru = "~0.7.2"
+
+[tool.poetry.group.l2.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

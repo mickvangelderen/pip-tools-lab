@@ -1,0 +1,16 @@
+[project]
+name = "pdm"
+version = "0.1.0"
+description = "Default template for PDM package"
+dependencies = [
+    "torch>=2.3.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pdm]
+distribution = true

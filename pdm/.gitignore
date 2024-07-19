@@ -1,0 +1,6 @@
+/.tools/
+/.venv/
+/pdm
+
+__pycache__/
+*.egg-info

@@ -9,12 +9,10 @@ set -x
 # An environment for poetry
 python -m venv .tools
 .tools/bin/pip install --upgrade pip
-.tools/bin/pip install --upgrade poetry poetry-plugin-export
-rm -f ./poetry && ln -s .tools/bin/poetry ./poetry
+.tools/bin/pip install --upgrade pdm
+rm -f ./pdm && ln -s .tools/bin/pdm ./pdm
 
 # An environment for the application
 python -m venv .venv/
 
 { set +x ;} 2> /dev/null
-
-./sync.sh
